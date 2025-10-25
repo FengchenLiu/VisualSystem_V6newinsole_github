@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="scene_graph_node" pkg="vins_estimator" type="scene_graph_node" output="screen"/>
+
+</launch>

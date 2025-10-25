@@ -1,0 +1,30 @@
+{
+    "threshold_hs": 150,      
+    "man_height": 1880.0 ,  
+    "bias_L" : 32,
+    "bias_R" : 32,
+    
+    "DOWN_TO_UP_THRESHOLD_LEFT": 1,
+    "DOWN_TO_UP_THRESHOLD_RIGHT": 1,
+    "UP_TO_DOWN_THRESHOLD_LEFT": 1,
+    "UP_TO_DOWN_THRESHOLD_RIGHT": 1,
+
+    "INDEX_START_TOE": 0,
+    "INDEX_END_TOE": 12,
+
+    "TL": 600,       
+    "TR": 600,
+
+
+    "strVwcSavingPath":"/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/vwc_1.txt",
+    "strPwcSavingPath":"/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/pwc_1.txt",
+    "strEulerSavingPath":"/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/euler_1.txt",
+    "strLandingRealTime":"/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/closed_landing_3.txt",
+    "strBackendTimeComsumption":"/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/closed_time_3.txt",
+    "strAllRecordedData": "/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/all_1.txt",
+
+    "raw_depth_path": "/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/raw_depth.png",
+    "host_depth_path": "/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/host_depth.png",
+    "raw_color_path": "/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/raw_color.png",
+    "merged_pcd_path": "/home/lfc/lfc/VisualSystem_V6newinsole/Code/logs/merged.pcd"
+}

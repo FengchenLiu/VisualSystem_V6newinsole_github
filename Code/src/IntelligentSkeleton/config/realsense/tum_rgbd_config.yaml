@@ -1,0 +1,21 @@
+%YAML:1.0
+
+
+image_width: 640
+image_height: 480
+
+projection_parameters:
+   fx: 525.0
+   fy: 525.0
+   cx: 319.5
+   cy: 239.5
+
+grid_dim_x: 512
+grid_dim_y: 512
+grid_dim_z: 512
+
+max_depth: 6.0
+min_depth: 0.1
+voxel_size: 0.01
+
+dataset_path: /home/bigai-summervibe/dataset/TUM-RGBD/rgbd_dataset_freiburg2_large_no_loop/

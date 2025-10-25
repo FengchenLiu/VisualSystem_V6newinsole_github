@@ -1,0 +1,8 @@
+<launch>
+    <!-- 加载参数文件 -->
+    <rosparam command="load" file="$(find chessboard_detector)/config/chessboard_params.yaml" />
+    
+    <!-- 启动棋盘格检测节点 -->
+    <node name="chessboard_detector" pkg="chessboard_detector" type="chessboard_detector.py" output="screen">
+    </node>
+</launch>
